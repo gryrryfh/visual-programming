@@ -56,6 +56,4 @@ void CMFCApplication2Dlg::OnBnClickedButton1() //버튼 관련 코드
 ![image](https://github.com/gryrryfh/visual-programming/assets/50912987/0320f416-eb2a-46cf-912d-0baddd428e73)
 ![image](https://github.com/gryrryfh/visual-programming/assets/50912987/03022cde-b1f1-4115-bef1-e89364564965)
 
-### 소감
-이번 과제를 통해 MFC를 사용한 간단한 그림 그리기 도구를 만드는 경험을 다시 해보았습니다. 솔직히 기초중에 기초인데도 많이 어려웠습니다.
-기존에는 코드만 딱 보면 어지간한건 다 해결이 되었는데 다이어로그를 조금 건드리고 나에게 맞게 꾸미거나 조건에 맞게 꾸미는게 생각보다 시간이 걸렸습니다. 결국 완성을 하긴 했지만 다이어로그에 이름수정하고 메시지 넣고 변수값 생성하고 수업을 제대로 듣지 않으면 절대 혼자 해결할 수 없다는걸 알았습니다. 지금까지 수업에 집중을 안하진 않았지만 더더욱 집중하고 실습해보면서 야무진 MFC프로그램과 WINUI3프로그램 만들어보고 싶습니다.
+

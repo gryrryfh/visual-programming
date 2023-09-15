@@ -4,7 +4,11 @@
 ### 꾸미기
 좌측 상단 Slider Control 설치 우측 상단 Button 설치
 ![image](https://github.com/gryrryfh/visual-programming/assets/50912987/7a32a518-b428-4098-b21b-133a519bd006)
+
+
 Slider Control 변수추가-이름 m_Slider
+
+
 ![image](https://github.com/gryrryfh/visual-programming/assets/50912987/d5e8c3c8-f6ac-4f96-ac25-b82292a2d595)
 
 

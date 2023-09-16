@@ -35,6 +35,6 @@ visual studio 새프로젝트 만들기-MFC앱-애플리케이션 종류(단일�
 https://github.com/gryrryfh/visual-programming/assets/50912987/7a804870-4cc5-4065-a316-11fb92a47cf4
   
 ### 소감
-이재경 
-김성현
-권윤호
+- 이재경   
+- 김성현  
+- 권윤호  

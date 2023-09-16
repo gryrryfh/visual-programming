@@ -1,6 +1,7 @@
 # MFC-단일문서기반 펜만들기 팀프로젝트
 ### 개발환경 : visual studio 2022 
-### 팀원 : 이재경 , 김성현, 권윤호
+### 팀장 : 권윤호
+### 팀원 : 이재경 , 김성현
 ### 이론
 MFC-SDI(단일문서기반) 구조  
   
@@ -28,8 +29,6 @@ visual studio 새프로젝트 만들기-MFC앱-애플리케이션 종류(단일�
 리소스뷰 - Menu - IDR_MAINFRAME - 색과 사이즈 꾸미기  
   
 ![image](https://github.com/gryrryfh/visual-programming/assets/50912987/19a5ab54-eac9-4db4-82a6-576be983c5e6)
-
-## 주요내용  
 
 ### 실행결과
   

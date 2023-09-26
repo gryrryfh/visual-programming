@@ -158,3 +158,6 @@ BOOL CPenView::PreTranslateMessage(MSG* pMsg)
 ## 디자인
 ![image](https://github.com/gryrryfh/visual-programming/assets/50912987/8a51fc69-0db4-4577-80d8-7da79933ac71)
 
+  
+## 실행결과
+

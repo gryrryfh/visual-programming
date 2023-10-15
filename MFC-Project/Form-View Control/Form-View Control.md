@@ -7,7 +7,8 @@
 4. select 메뉴에서 색과 펜의 굵기를 변경할 수 있다.
 
 ## 실행결과
-![image](https://github.com/gryrryfh/visual-programming/assets/50912987/51a5937b-bb04-40b0-97ed-16c9f7eea718)
 https://github.com/gryrryfh/visual-programming/assets/50912987/c195fe84-ee77-47a6-8863-e893f46fd183
+![image](https://github.com/gryrryfh/visual-programming/assets/50912987/51a5937b-bb04-40b0-97ed-16c9f7eea718)
+
 
 

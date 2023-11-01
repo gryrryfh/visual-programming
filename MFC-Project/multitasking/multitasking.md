@@ -21,30 +21,25 @@ OnMyDraw
 int CMultiTasking5View::OnMyDraw()
 {
 	CClientDC dc(this);
-	RECT r1; // 창의 크기를 저장할 구조체
-	GetClientRect(&r1); // 창의 크기를 읽어 옴
+	RECT r1; 
+	GetClientRect(&r1); 
 
-	// 선의 시작점과 끝점 좌표 계산
 	int startX = rand() % r1.right;
 	int startY = rand() % r1.bottom;
 	int endX = startX + rand() % 48;
 	int endY = startY + rand() % 48;
 
-	// 무작위 RGB 색상 생성
 	BYTE r = rand() % 256;
 	BYTE g = rand() % 256;
 	BYTE b = rand() % 256;
 	COLORREF col = RGB(r, g, b);
 
-	// 펜(선) 객체 생성 및 선택
 	HPEN hPen = CreatePen(PS_SOLID, 1, col);
 	HPEN hOldPen = (HPEN)SelectObject(dc.m_hDC, hPen);
 
-	// 선을 그리기
 	dc.MoveTo(startX, startY);
 	dc.LineTo(endX, endY);
 
-	// 펜(선) 객체 해제
 	SelectObject(dc.m_hDC, hOldPen);
 	DeleteObject(hPen);
 
@@ -56,7 +51,6 @@ OnIdle
 ```
 BOOL CMultiTasking5App::OnIdle(LONG lCount)
 {
-	// TODO: 여기에 특수화된 코드를 추가 및/또는 기본 클래스를 호출합니다.
 	POSITION pos = GetFirstDocTemplatePosition();
 	CDocTemplate* p = GetNextDocTemplate(pos);
 	pos = p->GetFirstDocPosition();

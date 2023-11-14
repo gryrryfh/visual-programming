@@ -1,92 +1,27 @@
 ## xaml.h
 ```
-// Copyright (c) Microsoft Corporation and Contributors.
-// Licensed under the MIT License.
-
-#pragma once
-
-#include "MainWindow.g.h"
-
-namespace winrt::App1::implementation
-{
-    struct MainWindow : MainWindowT<MainWindow>
-    {
-        MainWindow();
-
-        int32_t MyProperty();
-        void MyProperty(int32_t value);
-
-      
         void Add_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e);
         void Subtract_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e);
         void Multiply_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e);
         void Divide_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e);
-    };
-}
-
-namespace winrt::App1::factory_implementation
-{
-    struct MainWindow : MainWindowT<MainWindow, implementation::MainWindow>
-    {
-    };
-}
-
 ```
 ## cpp
 ```
-// Copyright (c) Microsoft Corporation and Contributors.
-// Licensed under the MIT License.
-
-#include "pch.h"
-#include "MainWindow.xaml.h"
-#if __has_include("MainWindow.g.cpp")
-#include "MainWindow.g.cpp"
-#endif
 using namespace std;
 double va, vb, vc;
-using namespace winrt;
-using namespace Microsoft::UI::Xaml;
 #include <microsoft.ui.xaml.window.h>
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
-namespace winrt::App1::implementation
-{
-    MainWindow::MainWindow()
-    {
-        InitializeComponent();
-        InitializeComponent();
         auto windowNative{ this->try_as<::IWindowNative>() };
         HWND hwnd(0);
         windowNative->get_WindowHandle(&hwnd);
         SetWindowPos(hwnd, NULL, 300, 500, 250, 300, NULL);
         this->Title(L"Calculator");
     }
-
-    int32_t MainWindow::MyProperty()
-    {
-        throw hresult_not_implemented();
-    }
-
-    void MainWindow::MyProperty(int32_t /* value */)
-    {
-        throw hresult_not_implemented();
-    }
-
-
-}
-
-
 void winrt::App1::implementation::MainWindow::Add_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)
-{
-    va = stod(a().Text().c_str());
+{va = stod(a().Text().c_str());
     vb = stod(b().Text().c_str());
     vc = va + vb;
     c().Text(to_wstring(vc));
 }
-
-
-
 void winrt::App1::implementation::MainWindow::Subtract_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)
 {
     va = stod(a().Text().c_str());
@@ -94,8 +29,6 @@ void winrt::App1::implementation::MainWindow::Subtract_Click(winrt::Windows::Fou
     vc = va - vb;
     c().Text(to_wstring(vc));
 }
-
-
 void winrt::App1::implementation::MainWindow::Multiply_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)
 {
     va = stod(a().Text().c_str());
@@ -114,19 +47,9 @@ void winrt::App1::implementation::MainWindow::Divide_Click(winrt::Windows::Found
 }
 
 ```
-## xaml.h
+## xaml
 ```
-<?xml version="1.0" encoding="utf-8"?>
-<Window
-    x:Class="App1.MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:App1"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
 
-    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBox x:Name="a" Margin="10"/>
         <TextBox x:Name="b" Margin="10"/>
 
@@ -242,16 +165,8 @@ namespace winrt::App5::factory_implementation
 ```
 ### xaml
 ```xaml
-<?xml version="1.0" encoding="utf-8"?>
-<Window
-    x:Class="App5.MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:App5"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
     xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
-    mc:Ignorable="d">
     <Grid>
         <canvas:CanvasControl PointerMoved="CanvasControl_PointerMoved"
                               Draw="CanvasControl_Draw"

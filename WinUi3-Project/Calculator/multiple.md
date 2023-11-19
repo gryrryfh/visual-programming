@@ -2,9 +2,10 @@
 Visual Studio 2022 WinUi3 C#
 ## 내용
 C#과 WinUI3를 사용한 곱하기 계산기
-
+## 실행결과
+https://github.com/gryrryfh/visual-programming/assets/50912987/a4024a0b-c0bd-49e2-be2a-f495cf3ea6c8
 ## 코드
-mainwindow.xaml
+## mainwindow.xaml
 ```xaml
 <?xml version="1.0" encoding="utf-8"?>
 <Window
@@ -30,7 +31,7 @@ mainwindow.xaml
     </Grid>
 </Window>
 ```
-Mainwindow.xaml.cs
+## Mainwindow.xaml.cs
 ```c#
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
@@ -70,7 +71,5 @@ namespace App2
     }
 }
 ```
-## 실행결과
 
-https://github.com/gryrryfh/visual-programming/assets/50912987/a4024a0b-c0bd-49e2-be2a-f495cf3ea6c8
 

@@ -1,11 +1,16 @@
 ## 실행환경
 Visual Studio 2022 WinUi3 C++
+
 ## 내용
 파란 배경에 입력한 내용이 점점 커지는 노란색 글자배너
 
+## 실행결과
+
+https://github.com/gryrryfh/visual-programming/assets/50912987/d17dcdfb-30a9-42f1-9735-8f7681681020
+
 ## 코드
 프로그램명 : App1
-xaml.cpp
+## xaml.cpp
 ``` c++
 // Copyright (c) Microsoft Corporation and Contributors.
 // Licensed under the MIT License.
@@ -88,7 +93,7 @@ void winrt::App1::implementation::MainWindow::CanvasControl_Draw(winrt::Microsof
     canvas.Invalidate();
 }
 ```
-xaml.h
+## xaml.h
 ``` xaml.h
 // Copyright (c) Microsoft Corporation and Contributors.
 // Licensed under the MIT License.
@@ -123,7 +128,7 @@ namespace winrt::App1::factory_implementation
     };
 }
 ```
-xaml
+## xaml
 ``` xaml
 <?xml version="1.0" encoding="utf-8"?>
 <Window
@@ -142,9 +147,4 @@ xaml
     </Grid>
 </Window>   
 ```
-## 실행결과
-
-
-https://github.com/gryrryfh/visual-programming/assets/50912987/d17dcdfb-30a9-42f1-9735-8f7681681020
-
 

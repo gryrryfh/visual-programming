@@ -1,8 +1,10 @@
+소스코드 : https://github.com/gryrryfh/WinUI3Paint  
+실행결과 :  
+https://github.com/gryrryfh/visual-programming/assets/50912987/d6fdacc0-5b34-4fb6-b59c-edc2dc64a805  
 
-https://github.com/gryrryfh/visual-programming/assets/50912987/47a4227c-463f-4931-b118-65a25359ffa1
-소스코드 : https://github.com/gryrryfh/WinUI3Paint
-실행결과 : Uploading WinUI Desktop 2023-11-28 14-46-05.mp4…
-
+  
+  
+  
 개선내용 : enable왼쪽에 메뉴바를 하나 더 생성해 지우개 기능 추가(지우개메뉴를 누르면 배경색으로 변하고 선 굵기가 커진다)
 ```cpp
 void winrt::WinUI3Pen::implementation::MainWindow::MenuFlyoutItem_Click_4(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)

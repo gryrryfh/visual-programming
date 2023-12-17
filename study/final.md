@@ -92,25 +92,20 @@ if(dlg.DoModal()==IDOK){
 
 # 2장 연습문제
 
-OX 문제
-
 ### 2. StackPanel의 속성 중 Orientation은 방향을 지정하는 속성이다. ( O / X )
 
 ### 3. Button의 속성 중 Click은 버튼을 클릭하면 실행되는 함수명을 지정하는 속성이다. ( O / X )
 
 ### 4. XAML은 마크다운 언어이다. ( O / X )
 
-단답형 문제
 
 ### 5. StackPanel의 VerticalAlignment 속성에서 수직 정렬을 중앙으로 하기 위한 값은?
 
 ### 6. WinUI 3를 실행하기 위한 단축키(디버그하지 않고 시작)는?
 
-7. Button의 클래스 명을 지정하기 위한 속성 명은?
+### 7. Button의 클래스 명을 지정하기 위한 속성 명은?
 
-4문 1택 문제
-
-8. C++/WinRT에서 버튼의 텍스트를 변경하기 위한 함수는?
+### 8. C++/WinRT에서 버튼의 텍스트를 변경하기 위한 함수는?
 
 가. Content()
 
@@ -120,7 +115,7 @@ OX 문제
 
 라. String()
 
-9. WinUI 3의 UI를 작성하기 위해 사용하는 언어는?
+### 9. WinUI 3의 UI를 작성하기 위해 사용하는 언어는?
 
 가. C++/WinRT
 
@@ -130,7 +125,7 @@ OX 문제
 
 라. JAVA
 
-10. WinUI 3 프로젝트의 구성 파일들을 확인하기 위한 탐색기는?
+### 10. WinUI 3 프로젝트의 구성 파일들을 확인하기 위한 탐색기는?
 
 가. 테스트 탐색기
 
@@ -140,23 +135,16 @@ OX 문제
 
 라. 솔루션 탐색기
 
-​
-
 # 3장 연습문제
 
-OX 문제
 
-1. 덧셈에서 사용했던 MainWindow.xaml의 버튼 이름을 곱셈에서 그대로 사용해도 오류가       나지 않는다.  ( O / X )
+### 1. 덧셈에서 사용했던 MainWindow.xaml의 버튼 이름을 곱셈에서 그대로 사용해도 오류가       나지 않는다.  ( O / X )
 
-2. SetWindowPos()를 사용하면 실행 창의 크기를 조정할 수 있다. ( O / X )
+### 2. SetWindowPos()를 사용하면 실행 창의 크기를 조정할 수 있다. ( O / X )
 
-3. Button의 새 이벤트 처리기를 생성하면 MainWindow.cpp에서 메서드가 생성된다. 
+### 3. Button의 새 이벤트 처리기를 생성하면 MainWindow.cpp에서 메서드가 생성된다.   ( O / X )
 
-  ( O / X )
-
-단답형 문제
-
-4. 밑줄 친 3개의 빈칸에 알맞은 코드를 각각 완성하시오.
+### 4. 밑줄 친 3개의 빈칸에 알맞은 코드를 각각 완성하시오.
 
 void winrt::caculator::implementation::MainWindow::subtract_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)
 
@@ -172,13 +160,11 @@ void winrt::caculator::implementation::MainWindow::subtract_Click(winrt::Windows
 
 }
 
-5. orientation 속성을 수직으로 설정할 수 있는 함수는?
+### 5. orientation 속성을 수직으로 설정할 수 있는 함수는?
 
-6. 여백을 조정할 수 있는 것은?
+### 6. 여백을 조정할 수 있는 것은?
 
-4문 1택 문제
-
-7. 다음 밑줄 친 빈칸에 공통으로 들어갈 수 있는 함수는?
+### 7. 다음 밑줄 친 빈칸에 공통으로 들어갈 수 있는 함수는?
 
 MainWindow::MainWindow()
 
@@ -210,27 +196,21 @@ MainWindow::MainWindow()
 
 # 4장 연습문제
 
-OX 문제
+### 2. WinUi 3 Gallery를 통해 다양한 컨트롤들의 예시를 볼 수 있다. ( O / X )
 
-2. WinUi 3 Gallery를 통해 다양한 컨트롤들의 예시를 볼 수 있다. ( O / X )
+### 3. WinUi 3 Gallery를 통해 다양한 스타일들의 예시를 볼 수 있다. ( O / X )
 
-3. WinUi 3 Gallery를 통해 다양한 스타일들의 예시를 볼 수 있다. ( O / X )
+### 4. TextBox에서 입력을 제한하는 속성은 IsReadOnly이다. ( O / X )
 
-4. TextBox에서 입력을 제한하는 속성은 IsReadOnly이다. ( O / X )
+### 5. 클래스들의 속성들을 모아놓아 정리해놓은 가이드의 이름은?
 
-단답형 문제
-
-5. 클래스들의 속성들을 모아놓아 정리해놓은 가이드의 이름은?
-
-6. 선택한 Text를 하얀색으로 강조하는 코드를 완성하여라.
+### 6. 선택한 Text를 하얀색으로 강조하는 코드를 완성하여라.
 
 <TextBox Name="Semple" UriS           ource="White" MinWidth="400" />
 
-7. TextBox에서 텍스트 색 변경하는 속성은?
+### 7. TextBox에서 텍스트 색 변경하는 속성은?
 
-4문 1택 문제
-
-8. TextBox의 텍스트 크기를 설정할 수 있는 속성은?
+### 8. TextBox의 텍스트 크기를 설정할 수 있는 속성은?
 
 가. Text
 
@@ -240,61 +220,55 @@ OX 문제
 
 라. FontStyle
 
-9. TextBox에서 True로 설정 시 사용 가능 너비 초과 시 줄 바꿔주는 속성은?
+### 9. TextBox에서 True로 설정 시 사용 가능 너비 초과 시 줄 바꿔주는 속성은?
 
-마. TextWrapping
+가. TextWrapping
 
-바. IsSpellCheckEnabled
+나. IsSpellCheckEnabled
 
-사. AcceptsReturn
+다. AcceptsReturn
 
-아. MinWidth
+라. MinWidth
 
-10. TextBox의 최소 너비를 설정하는 속성값은?
+### 10. TextBox의 최소 너비를 설정하는 속성값은?
 
-자. TextWrapping
+가. TextWrapping
 
-차. MinWidth
+나. MinWidth
 
-카. MinHight
+다. MinHight
 
-타. IsSpellCheckEnabled
+라. IsSpellCheckEnabled
 
 ​
 
 # 5장 연습문제
 
-OX 문제
+### 3. PersonPicture는 사진만 띄울 수 있다. ( O / X )
 
-3. PersonPicture는 사진만 띄울 수 있다. ( O / X )
+### 4. PersonPicture는 WinUi3 Gallery에서 Layout 카테고리에 속한다. ( O / X )
 
-4. PersonPicture는 WinUi3 Gallery에서 Layout 카테고리에 속한다. ( O / X )
+### 5. 한 개의 라디오 버튼에서 동시에 여러개 버튼 선택이 불가능하다.  ( O / X )
 
-5. 한 개의 라디오 버튼에서 동시에 여러개 버튼 선택이 불가능하다.  ( O / X )
+### 6. PersonPicture는 무슨 기능을 하는 컨트롤인가?
 
-단답형 문제
-
-6. PersonPicture는 무슨 기능을 하는 컨트롤인가?
-
-7. PersonPicture에서 URL로 PNG 이미지를 가져오기 위해 빈칸을 채우시오.
+### 7. PersonPicture에서 URL로 PNG 이미지를 가져오기 위해 빈칸을 채우시오.
 
 <PersonPicture x:Name="personPicture" Height="300" VerticalAlignment="Top" ProfilePicture="https://docs.microsoft.com/windows/uwp/contacts- and-calendar/images/shoulder-tap-static-payload.   o“ />
 
-8. DisplayName에 관해 설명하시오.
+### 8. DisplayName에 관해 설명하시오.
 
-4문 1택 문제
-
-9. PersonPicture의 프로필 이미지 속성으로 옳은 것은?
+### 9. PersonPicture의 프로필 이미지 속성으로 옳은 것은?
 
 가. PersonPicture
 
-가. BadgeNumber
+나. BadgeNumber
 
-나. Contact
+다. Contact
 
-다. ProgilePicture
+라. ProgilePicture
 
-10. DisplayName에 ”Gil Dong“이라 설정하였다. 올바르게 실행된 것은?
+### 10. DisplayName에 ”Gil Dong“이라 설정하였다. 올바르게 실행된 것은?
 
 가. GD
 
@@ -304,7 +278,7 @@ OX 문제
 
 라. Gil Dong
 
-11. 라디오 버튼을 하나의 묶음으로 인식하게 해주는 컨트롤은?
+### 11. 라디오 버튼을 하나의 묶음으로 인식하게 해주는 컨트롤은?
 
 가. RadioButton
 
@@ -314,21 +288,16 @@ OX 문제
 
 라. CheckBox
 
-​
 
 # 6장 연습문제
 
-OX 문제
+### 1. VariableSizedWrapGrid를 통해 이미지나 컨트롤을 배치할 수 있다. ( O / X )
 
-1. VariableSizedWrapGrid를 통해 이미지나 컨트롤을 배치할 수 있다. ( O / X )
+### 2. VariableSizedWrapGrid에서 각 셀의 높이를 설정하는 속성은 CellHeight이다. ( O / X )
 
-2. VariableSizedWrapGrid에서 각 셀의 높이를 설정하는 속성은 CellHeight이다. ( O / X )
+### 3. 이미지는 로컬 이미지만 출력할 수 있다. ( O / X )
 
-3. 이미지는 로컬 이미지만 출력할 수 있다. ( O / X )
-
-단답형 문제
-
-4. 이미지를 출력하기 위해 빈칸(노란색 바탕)을 채워 다음 코드를 완성하여라.
+### 4. 이미지를 출력하기 위해 빈칸(노란색 바탕)을 채워 다음 코드를 완성하여라.
 
 <Image Height="300">
 
@@ -344,13 +313,11 @@ LandscapeImage1.jpg?raw=true"/>
 
 </Image>
 
-5. VariableSizedWrapGrid에서 최대 행렬 개수를 설정하는 속성은?
+### 5. VariableSizedWrapGrid에서 최대 행렬 개수를 설정하는 속성은?
 
-6. Grid에서 열의 너비를 정하기 위한 속성은?
+### 6. Grid에서 열의 너비를 정하기 위한 속성은?
 
-4문 1택 문제
-
-7. 각 행의 높이와 각 열의 너비를 설정할 수 있는 레이아웃 컨트롤은?
+### 7. 각 행의 높이와 각 열의 너비를 설정할 수 있는 레이아웃 컨트롤은?
 
 가. VariableSizedWrapGrid
 
@@ -360,7 +327,7 @@ LandscapeImage1.jpg?raw=true"/>
 
 라. Grid
 
-8. 배치 방향을 설정하는 속성은?
+### 8. 배치 방향을 설정하는 속성은?
 
 가. Orientation
 
@@ -370,7 +337,7 @@ LandscapeImage1.jpg?raw=true"/>
 
 라. Order
 
-9. 이미지를 셀의 크기에 맞게 채우는 속성값은?
+### 9. 이미지를 셀의 크기에 맞게 채우는 속성값은?
 
 가. Stretch=”Fill”
 
@@ -378,19 +345,13 @@ LandscapeImage1.jpg?raw=true"/>
 
 # 7장 연습문제
 
-OX 문제
+### 1. 메뉴바를 추가하려면 MenuFlyoutItem 태그를 사용해야 한다.       ( O / X )
 
-1. 메뉴바를 추가하려면 MenuFlyoutItem 태그를 사용해야 한다.       ( O / X )
+### 1. 메뉴를 선택할 때 발생하는 이벤트는 Click 이벤트이다.            ( O / X )
 
-1. 메뉴를 선택할 때 발생하는 이벤트는 Click 이벤트이다.            ( O / X )
+### 2. 라디오 메뉴를 사용할 때 그룹을 지정하기 위해 동일한 GroupName을 가져야 한다.            ( O / X )
 
-2. 라디오 메뉴를 사용할 때 그룹을 지정하기 위해 동일한 GroupName을 가져야 한다. 
-
-                                                                     ( O / X )
-
-단답형 문제
-
-3. ‘환경설정’ 메뉴바 안에 ‘일반’ 메뉴와 ‘고급’ 메뉴를 만들기 위해 빈칸(노란색 바탕)을 채워 다음 코드를 완성하여라.
+### 3. ‘환경설정’ 메뉴바 안에 ‘일반’ 메뉴와 ‘고급’ 메뉴를 만들기 위해 빈칸(노란색 바탕)을 채워 다음 코드를 완성하여라.
 
 <MenuBar>
 
@@ -404,7 +365,7 @@ OX 문제
 
 </MenuBar>
 
-4. ‘도구’ 메뉴에 단축키 ‘Ctrl + F’ 기능을 추가하기 위해 빈칸(노란색 바탕)을 채워 다음 코드를 완성하여라.
+### 4. ‘도구’ 메뉴에 단축키 ‘Ctrl + F’ 기능을 추가하기 위해 빈칸(노란색 바탕)을 채워 다음 코드를 완성하여라.
 
 <MenuFlyoutItem Text="도구">
 
@@ -416,11 +377,9 @@ OX 문제
 
 </MenuFlyoutItem>
 
-5. ‘프로젝트’라는 이름을 가지고 ‘Page’ 아이콘을 가진 메뉴바를 코드로 작성하시오.
+### 5. ‘프로젝트’라는 이름을 가지고 ‘Page’ 아이콘을 가진 메뉴바를 코드로 작성하시오.
 
-4문 1택 문제
-
-6. 서브 메뉴를 만들기 위해서 필요한 태그는 무엇인가요?
+### 6. 서브 메뉴를 만들기 위해서 필요한 태그는 무엇인가요?
 
 가. MenuBar
 
@@ -430,7 +389,7 @@ OX 문제
 
 라. MenuFlyoutItem
 
-7. 단축키 ‘Ctrl + R’ 기능을 추가하기 위한 태그로 올바른 것은? 
+### 7. 단축키 ‘Ctrl + R’ 기능을 추가하기 위한 태그로 올바른 것은? 
 
 가. <KeyboardAccelerator Modifiers="Shift" Key="R"/>
 
@@ -440,7 +399,7 @@ OX 문제
 
 라. <KeyboardAccelerator Modifiers="Control" Key="R"/>
 
-8. MenuFlyout에서 항목을 구분하는 수평선을 생성하는 태그는 무엇인가요?
+### 8. MenuFlyout에서 항목을 구분하는 수평선을 생성하는 태그는 무엇인가요?
 
 가. MenuFlyoutSeparator
 
@@ -454,11 +413,9 @@ OX 문제
 
 # 8장 연습문제
 
-OX 문제
+### 1. ComboBox의 Item이 변경되었을 때 실행되는 함수를 지정하는 속성은 SelectionChanged이다. ( O / X )
 
-1. ComboBox의 Item이 변경되었을 때 실행되는 함수를 지정하는 속성은 SelectionChanged이다. ( O / X )
-
-2. 시간을 활용하기 위해서는 #include<string> 헤더파일을 추가해야한다. ( O / X )
+### 2. 시간을 활용하기 위해서는 #include<string> 헤더파일을 추가해야한다. ( O / X )
 
 3. 문자열 변수와 문자열 변수를 더하면 문자열이 합쳐진다. ( O / X )
 

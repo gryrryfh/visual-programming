@@ -42,23 +42,23 @@ if(dlg.DoModal()==IDOK){
 
 # 1장 연습문제
 
-1. WinUI 3는 Windows 7, Windows 8의 앱에서 최신 컨트롤, 스타일 및 기능을 사용할 수 있다.   ( O / X )
+### 1. WinUI 3는 Windows 7, Windows 8의 앱에서 최신 컨트롤, 스타일 및 기능을 사용할 수 있다.   ( O / X )
 
-2. Windows 앱 SDK (10.0.17134.0 버전 이상)에는 C++/WinRT를 사용할 수 있다. ( O / X )
+### 2. Windows 앱 SDK (10.0.17134.0 버전 이상)에는 C++/WinRT를 사용할 수 있다. ( O / X )
 
-3. WinUI 2에서는 UWP, WinUI 3에서는 Win32 기반 앱을 개발할 수 있다. ( O / X )
+### 3. WinUI 2에서는 UWP, WinUI 3에서는 Win32 기반 앱을 개발할 수 있다. ( O / X )
 
 단답형 문제
 
-4. ____는 헤더 파일 기반 라이브러리로 구현된 WinRT API용 C++17 언어입니다.
+### 4. ____는 헤더 파일 기반 라이브러리로 구현된 WinRT API용 C++17 언어입니다.
 
-5. Microsoft에서 개발한 차세대 WinUI 프레임워크는?
+### 5. Microsoft에서 개발한 차세대 WinUI 프레임워크는?
 
-6. WinUI 3는 Windows ____, _____  환경의 UI를 사용하여 제작한다.
+### 6. WinUI 3는 Windows ____, _____  환경의 UI를 사용하여 제작한다.
 
 4문 1택 문제
 
-7. C++/CLI, C++/CX에 비해 성능과 문법이 개선되어 Win32, UWP 앱 개발 등에서 표준으로 많이 사용하고 있는 언어는?
+### 7. C++/CLI, C++/CX에 비해 성능과 문법이 개선되어 Win32, UWP 앱 개발 등에서 표준으로 많이 사용하고 있는 언어는?
 
 가. C++/CLI
 
@@ -68,7 +68,7 @@ if(dlg.DoModal()==IDOK){
 
 라. WinUI 3
 
-8. WinUI 3에서 지원하지 않는 플랫폼은?
+### 8. WinUI 3에서 지원하지 않는 플랫폼은?
 
 가. UWP
 
@@ -78,7 +78,7 @@ if(dlg.DoModal()==IDOK){
 
 라. Hololens
 
-9. Microsoft 사의 개발환경이 아닌 것은?
+### 9. Microsoft 사의 개발환경이 아닌 것은?
 
 가. WinUI 3
 
@@ -94,17 +94,17 @@ if(dlg.DoModal()==IDOK){
 
 OX 문제
 
-2. StackPanel의 속성 중 Orientation은 방향을 지정하는 속성이다. ( O / X )
+### 2. StackPanel의 속성 중 Orientation은 방향을 지정하는 속성이다. ( O / X )
 
-3. Button의 속성 중 Click은 버튼을 클릭하면 실행되는 함수명을 지정하는 속성이다. ( O / X )
+### 3. Button의 속성 중 Click은 버튼을 클릭하면 실행되는 함수명을 지정하는 속성이다. ( O / X )
 
-4. XAML은 마크다운 언어이다. ( O / X )
+### 4. XAML은 마크다운 언어이다. ( O / X )
 
 단답형 문제
 
-5. StackPanel의 VerticalAlignment 속성에서 수직 정렬을 중앙으로 하기 위한 값은?
+### 5. StackPanel의 VerticalAlignment 속성에서 수직 정렬을 중앙으로 하기 위한 값은?
 
-6. WinUI 3를 실행하기 위한 단축키(디버그하지 않고 시작)는?
+### 6. WinUI 3를 실행하기 위한 단축키(디버그하지 않고 시작)는?
 
 7. Button의 클래스 명을 지정하기 위한 속성 명은?
 

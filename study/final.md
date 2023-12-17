@@ -26,6 +26,17 @@ if(dlg.DoModal()==IDOK){
 
 # 10. win2d direct 에 사용한거 nuget사용함
 
+# 11 화면컨트롤
+    MainWindow::MainWindow()
+    {
+        InitializeComponent();
+        auto wn{this->try_as<::IWindowNative>()};
+        HWND hwnd{ 0 };
+        wn->get_WindowHandle(&hwnd);
+        SetWindowPos(hwnd, NULL, 600, 200, 320, 320, NULL);
+        this->Title(L"Image");
+    }
+
 
 # 1장 연습문제
 

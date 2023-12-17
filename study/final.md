@@ -40,7 +40,7 @@ if(dlg.DoModal()==IDOK){
 
 
 
-1장 연습문제
+# 1장 연습문제
 
 1. WinUI 3는 Windows 7, Windows 8의 앱에서 최신 컨트롤, 스타일 및 기능을 사용할 수 있다.   ( O / X )
 
@@ -90,7 +90,7 @@ if(dlg.DoModal()==IDOK){
 
 ​
 
-2장 연습문제
+# 2장 연습문제
 
 OX 문제
 
@@ -142,7 +142,7 @@ OX 문제
 
 ​
 
-3장 연습문제
+# 3장 연습문제
 
 OX 문제
 
@@ -208,7 +208,7 @@ MainWindow::MainWindow()
 
 ​
 
-4장 연습문제
+# 4장 연습문제
 
 OX 문제
 
@@ -262,7 +262,7 @@ OX 문제
 
 ​
 
-5장 연습문제
+# 5장 연습문제
 
 OX 문제
 
@@ -316,7 +316,7 @@ OX 문제
 
 ​
 
-6장 연습문제
+# 6장 연습문제
 
 OX 문제
 
@@ -376,7 +376,7 @@ LandscapeImage1.jpg?raw=true"/>
 
 ​
 
-7장 연습문제
+# 7장 연습문제
 
 OX 문제
 
@@ -452,7 +452,7 @@ OX 문제
 
 ​
 
-8장 연습문제
+# 8장 연습문제
 
 OX 문제
 
@@ -512,7 +512,7 @@ else flag = false;
 
 ​
 
-9장 연습문제
+# 9장 연습문제
 
 OX 문제
 
@@ -584,7 +584,7 @@ void winrt::Browser::implementation::MainWindow::get_button_Click(winrt::Windows
 
 ​
 
-10장 연습문제
+# 10장 연습문제
 
 OX 문제
 
@@ -618,7 +618,7 @@ OX 문제
 
 ​
 
-11장 연습문제
+# 11장 연습문제
 
 1. SuppressNavigationTransitionInfo 태그는 새로운 페이지가 왼쪽에서 밀려 나타나는 애니메이션을 적용한다. ( O / X )
 
@@ -670,7 +670,7 @@ winrt::App1::implementation::MainWindow::BackwardButton1_Click(winrt::Windows::F
 
 ​
 
-12장 연습문제
+# 12장 연습문제
 
 1. NuGet 패키지는 매 프로젝트마다 설치하여야 활용할 수 있다. ( O / X )
 
@@ -736,7 +736,7 @@ ClearColor="Green"/>
 
 ​
 
-13장 연습문제
+# 13장 연습문제
 
 OX 문제
 
@@ -792,7 +792,7 @@ args.DrawingSession().DrawLine(5, - 1‘], vx[i], 30, Colors::Green(), 4555);
 
 ​
 
-14장 연습문제
+# 14장 연습문제
 
 OX 문제
 
@@ -848,7 +848,7 @@ OX 문제
 
 ​
 
-15장 연습문제
+# 15장 연습문제
 
 OX 문제
 

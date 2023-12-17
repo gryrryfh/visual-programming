@@ -42,7 +42,7 @@ if(dlg.DoModal()==IDOK){
 
 # 1장 연습문제
 
-### 1. WinUI 3는 Windows 7, Windows 8의 앱에서 최신 컨트롤, 스타일 및 기능을 사용할 수 있다.   ( O / X )
+### 1. WinUI 3는 Windows 7, Windows 8의 앱에서 최신 컨트롤, 스타일 및 기능을 사용할 수 있다.   (  X )
 
 ### 2. Windows 앱 SDK (10.0.17134.0 버전 이상)에는 C++/WinRT를 사용할 수 있다. ( O / X )
 
